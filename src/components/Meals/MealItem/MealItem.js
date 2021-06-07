@@ -5,7 +5,7 @@ import MealItemForm from "./MealItemForm";
 
 const MealItem = (props) => {
   const cartCtx = useContext(CardContext);
-  const price = `PHP ${props.price.toFixed(2)}`;
+  const price = `₱ ${props.price.toFixed(2)}`;
 
   const addItemToCartHandler = amount => {
     cartCtx.addItem({

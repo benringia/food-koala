@@ -10,7 +10,7 @@ const DUMMY_MEALS = [
   },
   {
     id: "m2",
-    name: "Schnitzel",
+    name: "Fried Chicken",
     description: "A german specialty!",
     price: 416.5,
   },
@@ -22,9 +22,15 @@ const DUMMY_MEALS = [
   },
   {
     id: "m4",
-    name: "Green Bowl",
+    name: "Ceasar's Salad",
     description: "Healthy...and green...",
     price: 518.99,
+  },
+  {
+    id: "m5",
+    name: "Potato Fries",
+    description: "Great Snack",
+    price: 150.99,
   },
 ];
 
