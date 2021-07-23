@@ -38,10 +38,10 @@ const Cart = (props) => {
         }),
       }
     );
-  //   setIsSubmitting(false);
-  //   setDidsubmit(true);
-  //   cartCtx.clearCart();
-  // };
+    setIsSubmitting(false);
+    setDidsubmit(true);
+    cartCtx.clearCart();
+  };
 
   const cartItems = (
     <ul className={classes["cart-items"]}>
