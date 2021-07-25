@@ -80,6 +80,7 @@ const CartProvider = (props) => {
     removeItem: removeItemFromCartHandler,
     clearCart: clearCartHandler
   };
+
   return (
     <CartContext.Provider value={cartContext}>
       {props.children}
